@@ -1,3 +1,86 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
+    /* background-color: orange;
+    background-image: url(../images/shutterstock_114802408.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 30rem; */
+}
+/* h1, h2, h3, #top, .dark, nav ul li a {
+    color: blue;
+} */
+/* menu */
+header nav {
+    background-color: rgba(0, 0, 0, 0.76);
+    position: fixed;
+}
+nav ul li {
+    height: 3rem;
+    display: inline;
+    margin-left: 3rem;
+}
+/* main */
+h1 {
+    /* option 1 */
+    color: red;
+    /* option 2 */
+    color: #ccc;
+    /* option 3 */
+    color: rgb(100, 106, 182);
+    /* option 4 */
+    /* color: rgba(); */
+    background-color: rgba(3, 4, 255, 0.5);
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+/* DRY
+Don't Repeat Yourself */
+
+section div {
+    width: 3rem;
+    height: 3rem;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+#red {
+    background-color: red;
+}
+#orange {
     background-color: orange;
+}
+#green {
+    background-color: green;
+}
+/* Home main */
+.something {
+    width: 10rem;
+    height: 20rem;
+    background-color: deepskyblue;
+    margin: 20rem 5rem 5rem 2rem;
+    /* border: 12px red solid; */
+    border-width: 10px 22px 30px 10px;
+    border-color: red orange blue gray;
+    border-style: dashed solid dashed solid;
+}
+
+/* About main */
+main img {
+    width: 150px;
+    height: 150px;
+    border-top: 40px black solid;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    /* letter-spacing: 50px; */
+    word-spacing: 50px;
+    text-indent: 100px;
 }
