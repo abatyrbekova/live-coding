@@ -1,0 +1,38 @@
+/* table */
+table,
+tr,
+td,
+th {
+    border: 1px black solid;
+}
+tr,
+td,
+th {
+    width: 50px;
+    height: 50px;
+    border-spacing: 1px;
+    background-color: black;
+}
+/* .black {
+    background-color: black;
+} */
+
+/* tr:nth-child(even) {
+    background-color: black;
+}
+td:nth-child(even) {
+    background-color: black;
+} */
+/* tr:nth-child(odd) {
+    background-color: black;
+} */
+/* td:nth-child(even) {
+    background-color: white;
+} */
+
+tr:nth-of-type(odd) td:nth-of-type(odd) {
+    background-color: white;
+}
+tr:nth-of-type(even) td:nth-of-type(even) {
+    background-color: white;
+}
