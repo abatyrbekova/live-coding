@@ -203,3 +203,28 @@
 
 - Creating shapes using the the `border` property -
 - Transforming shapes: `transform`, `rotate()`, `scale()`
+
+---
+## [19.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/19-01) CSS selectors
+### HTML/Css assignment
+### Css selectors
+#### Basic selectors
+- Universal selector `*`
+- Type selector (Element selector)
+- ID selector 
+- Class selector 
+- attribute selectors 
+#### Grouping selectors
+- selector list "Combining multiple selectors with `,`"
+#### Combinators
+- Descendant combinator
+- Child combinator 
+- General sibling combinator
+- Adjacent sibling combinator
+- Column combinator 
+#### Pseudo 
+- Pseudo classes `:hover`, `:visited`, `:focus` ,`:active`, `:checked` 
+- pseudo child selectors: `:nth-child() 
+### Forms and Dynamic Data
+- Searching - `<form>`, `<input>`
+  

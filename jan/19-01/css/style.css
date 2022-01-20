@@ -117,6 +117,9 @@ p ~ span {
     border: 5px black solid;
 }
 
+[title*="long"] {
+  border: 5px black solid;
+}
 /* pseudo class  */
 /* specifies a special state for that element */
 /* :hover */
@@ -145,6 +148,9 @@ a:active {
     width: 3rem;
 }
 
+[type="checkbox"]:checked {
+  width: 3rem;
+}
 /* :nth-child() */
 /* 1th 6th... */
 tr:nth-child(2n+1) {
