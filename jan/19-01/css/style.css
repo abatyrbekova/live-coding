@@ -82,31 +82,71 @@ p ~ span {
 
 /* [attribute=value] Selector  */
 [type="submit"] {
-    
+    border: none;
+    background-color: black;
+    color: aliceblue;
 }
 
 /* [attribute~=value] Selector
     containing the value */
+    [alt~="tree"] {
+        width: 12rem;
+    }
+    form {
+        border: 2px red dashed;
+    }
 
 /* [attribute^=value] Selector
     begins with the value */
+[title^="Here"] {
+    border: 2px red dashed;
+}
 
 /* [attribute$=value] Selector
     value ends with  */
+[title$="data"] {
+    background-color: black;
+    }
 
 /* [attribute*=value] Selector
     contains the substring */
+    /* [class*="long"] {
+        border: 2px black dashed;
+    } */
+[title*="long"] {
+    border: 5px black solid;
+}
 
 /* pseudo class  */
 /* specifies a special state for that element */
 /* :hover */
+table:hover {
+    background-color: gray;
+}
 
 /* :visited */
+a, a:visited, a:link {
+    color: green;
+}
 
 /* :focus */
+input[type="text"]:focus {
+    outline: none;
+    border: 2px pink solid;
+}
 
 /* :active */
+a:active {
+    background-color: red;
+}
 
 /* :checked */
+[type="checkbox"]:checked {
+    width: 3rem;
+}
 
 /* :nth-child() */
+/* 1th 6th... */
+tr:nth-child(2n+1) {
+    background-color: black;
+}
