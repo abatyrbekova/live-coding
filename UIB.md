@@ -205,26 +205,64 @@
 - Transforming shapes: `transform`, `rotate()`, `scale()`
 
 ---
+
 ## [19.10](https://github.com/FbW-WD21-E11/live-coding/tree/main/jan/19-01) CSS selectors
+
 ### HTML/Css assignment
+
 ### Css selectors
+
 #### Basic selectors
+
 - Universal selector `*`
 - Type selector (Element selector)
-- ID selector 
-- Class selector 
-- attribute selectors 
+- ID selector
+- Class selector
+- attribute selectors
+
 #### Grouping selectors
+
 - selector list "Combining multiple selectors with `,`"
+
 #### Combinators
+
 - Descendant combinator
-- Child combinator 
+- Child combinator
 - General sibling combinator
 - Adjacent sibling combinator
-- Column combinator 
-#### Pseudo 
-- Pseudo classes `:hover`, `:visited`, `:focus` ,`:active`, `:checked` 
-- pseudo child selectors: `:nth-child() 
+- Column combinator
+
+#### Pseudo
+
+- Pseudo classes `:hover`, `:visited`, `:focus` ,`:active`, `:checked`
+- pseudo child selectors: `:nth-child()
+
 ### Forms and Dynamic Data
+
 - Searching - `<form>`, `<input>`
-  
+
+---
+
+## [20.01](./jan/20-01) Pseudo classes and elements
+
+### Review
+
+### CSS Variables:
+
+Defining in `:root { --[name]: [value] }`
+
+### pseudo elements VS pseudo classes
+
+#### pseudo elements
+
+- `::after` `::before `
+- `::first-letter`
+- `::placeholder` for styling `placeholder` text
+- Using MDN to locate additional selectors, combinators, elements and rules
+
+### CSS units
+
+- `vh` and `vw`
+- Use cases for the different units
+
+#### Presentation pseudo classes and elements

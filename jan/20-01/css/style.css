@@ -24,7 +24,9 @@ h1 {
 /* pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). */
 /* more pseudo classes
   :valid
-  :hover */
+  :hover
+  
+  */
 
 /* pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s) */
 
@@ -44,7 +46,6 @@ input[type="text"]::placeholder,
 input[type="password"]::placeholder {
   color: var(--my-color);
 }
-
 /* ::first-letter (:first-letter) */
 p::first-letter {
   color: var(--other-color);
@@ -52,7 +53,6 @@ p::first-letter {
   /* font-size: calc(var(--my-font-size) - 1rem); */
   font-size: calc(var(--my-font-size) * 1);
 }
-
 /* display:none vs opacity: 0 */
 div {
   border: 2px black solid;
@@ -68,6 +68,15 @@ div {
 }
 
 /* vh & vw */
+.car {
+  /* view port width */
+  width: 50vw;
+  /* view port height */
+  height: 50vh;
+  filter: grayscale(10);
+  /* opacity: 0.3; */
+  display: none;
+}
 
 /* visual content like img */
 /*  % , border-radius */
