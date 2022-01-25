@@ -13,6 +13,7 @@ body {
     sans-serif;
   width: 100vw;
   height: 100vh;
+  transition: 0.2s;
 }
 /* form */
 form {
@@ -43,7 +44,6 @@ fieldset input:focus, select:focus {
   align-items: center;
   justify-content: center;
 }
-
 /* Hide the ugly html checkbox */
 .switch input {
   opacity: 0;
