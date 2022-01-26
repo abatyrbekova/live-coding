@@ -79,7 +79,7 @@ td:hover {
 tr:nth-child(4) :nth-child(4) {
     background-color: orange;
 } */
-tr:nth-child(n + 3):nth-child(-n + 5) tr:nth-child(n + 4):nth-child(-n + 5) {
+tr:nth-child(n+3):nth-child(-n+5) td:nth-child(n+4):nth-child(-n+5) {
     background-color: orange;
 }
 tr:nth-child(7) :nth-child(7) {
