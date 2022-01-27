@@ -85,19 +85,16 @@
           <h4>Our clients</h4>
           <div>
             <div class="avatar"><h5>Ali</h5></div>
-
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
             ullam?
           </div>
           <div>
             <div class="avatar"><h5>Nancy</h5></div>
-
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
             ullam?
           </div>
           <div>
             <div class="avatar"><h5>Steel</h5></div>
-
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,
             ullam?
           </div>
@@ -116,8 +113,16 @@
       <hr />
       <div>
         <h5>Made with ❤️ by Hadi</h5>
-        <h6>Copyright © 2022 Beyou Inc. All rights reserved.</h6>
+        <h6>
+          Copyright © <span id="year"></span> Beyou Inc. All rights reserved.
+        </h6>
       </div>
     </footer>
+    <script>
+      // soon we will learn all if that :)
+      let span = document.getElementById("year");
+      let year = new Date().getFullYear();
+      span.innerHTML = year;
+    </script>
   </body>
 </html>
