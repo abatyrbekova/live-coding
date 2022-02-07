@@ -4,6 +4,7 @@
 @import url("./menu.css");
 @import url("./main-section.css");
 @import url("./footer.css");
+/* hey this  */
 * {
   margin: 0;
   padding: 0;
@@ -36,3 +37,11 @@ body {
   grid-area: side;
   background: red;
 } */
+/* nobile */
+/* @media only screen and (max-width: 450px) {
+  body {
+    font-size: 1.2rem;
+    grid-template-rows: 5vh repeat(3, 80vh) 10vh;
+  }
+} */
+/*  */
