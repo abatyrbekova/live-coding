@@ -4,7 +4,6 @@
 @import url("./menu.css");
 @import url("./main-section.css");
 @import url("./footer.css");
-
 * {
   margin: 0;
   padding: 0;
@@ -13,3 +12,27 @@
 :root {
   font-size: 16px;
 }
+body {
+  width: 100vw;
+  display: grid;
+  /* if you needed aside menu */
+  /* grid-template-columns: 10vw 1fr;
+  grid-template-rows: 5vh repeat(3, 60vh) 10vh;
+  grid-template-areas:
+    "menu menu"
+    "side intro"
+    "side products"
+    "side clients"
+    "side footer"; */
+  grid-template-rows: 5vh repeat(3, 60vh) 10vh;
+  grid-template-areas:
+    "menu"
+    "intro"
+    "products"
+    "clients"
+    "footer";
+}
+/* .side {
+  grid-area: side;
+  background: red;
+} */

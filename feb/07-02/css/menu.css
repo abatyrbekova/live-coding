@@ -1,1 +1,18 @@
 /* menu */
+header {
+  grid-area: menu;
+  display: flex;
+}
+.navbar {
+  background-color: lightgray;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row;
+  position: relative;
+  width: 100vw;
+  height: 5vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
