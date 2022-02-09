@@ -380,3 +380,12 @@ Defining in `:root { --[name]: [value] }`
 ## [07.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/07-02) Responsive Web Design part 2
 ### CSS Review 
 - Building a responsive web page 
+------
+## [08.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/08-02) CSS Animations
+### Custom Animations
+- Creating custom animation scripts: `@keyframes [name] { ... }`
+- Applying animations: `:hover` and `:focus`, css `animation`
+- Controlling the script: `from`, `to` and `%` directives
+- Changing the iteration and direction: 
+  `animation-iteration-count`, `animation-direction`
+- Best Design Practices: When and how much transition and animation

@@ -93,6 +93,7 @@ from {
   animation-name: letter-I;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  /* animation: ; */
 }
 @keyframes letter-D {
   0% {
