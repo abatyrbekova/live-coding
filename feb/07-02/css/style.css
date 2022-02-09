@@ -38,10 +38,10 @@ body {
   background: red;
 } */
 /* nobile */
-/* @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   body {
     font-size: 1.2rem;
     grid-template-rows: 5vh repeat(3, 80vh) 10vh;
   }
-} */
+}
 /*  */
