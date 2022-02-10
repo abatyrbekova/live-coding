@@ -389,3 +389,11 @@ Defining in `:root { --[name]: [value] }`
 - Changing the iteration and direction: 
   `animation-iteration-count`, `animation-direction`
 - Best Design Practices: When and how much transition and animation
+
+--------
+## [09.02](https://github.com/FbW-WD21-E11/live-coding/tree/main/feb/09-02) CSS Animations part 2
+### Built in Animations
+- Transitioning property changes - 
+  css `transition: [prop] [duration] [timing]`
+- Creating a nested navigation bar with `<nav>` and nested `<ul>`
+- Showing dropdowns on `:hover` and `:focus`
