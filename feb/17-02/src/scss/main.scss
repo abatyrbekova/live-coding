@@ -1,14 +1,18 @@
-//Vendor
-@import "./vendor/_vendor-dir";
+// //Vendor
+// @import "./vendor/_vendor-dir";
 
-//Abstracts
-@import "./abstracts/_abstracts-dir";
+// //Abstracts
+// @import "./abstracts/_abstracts-dir";
 
-//Base Styles
-@import "./base/_base-dir";
+// //Base Styles
+// @import "./base/_base-dir";
 
-//Components
-@import "./components/_components-dir";
+// //Components
+// @import "./components/_components-dir";
 
-//Layout
-@import "./layouts/_layouts-dir";
+// //Layout
+// @import "./layouts/_layouts-dir";
+
+body {
+  background-color: orange;
+}
