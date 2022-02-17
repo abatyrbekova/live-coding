@@ -6,4 +6,3 @@ src/styles/
 node_modules/
 # VS code config
 .vscode/ 
-.DS_Store
