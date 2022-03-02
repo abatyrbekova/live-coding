@@ -1,0 +1,60 @@
+// Resting
+@mixin rest-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+// Center things
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-IDK($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+// Sizes for box
+@mixin box-size {
+  width: 3rem;
+  height: 3rem;
+}
+
+div {
+  background-color: gray;
+}
+.box1 {
+  @include box-size();
+}
+// cool mixin
+// Declaring my mixins
+@mixin box-size-with-random-val($width, $height) {
+  // scope
+  width: $width;
+  height: $height;
+}
+.box2 {
+  background-color: pink;
+  @include box-size-with-random-val(51rem, 5rem);
+}
+$box2-width: 3rem;
+.box3 {
+  background-color: black;
+  // calling my mixins
+  @include box-size-with-random-val($box2-width, 2rem);
+}
+.box4 {
+  background-color: purple;
+  @include box-size-with-random-val(400px, 15rem);
+}
+// Hide element
+@mixin hide {
+  opacity: 0;
+  visibility: hidden;
+}
+// Revel
+@mixin revel {
+  opacity: 1;
+  visibility: visible;
+}
