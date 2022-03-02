@@ -34,16 +34,6 @@ div {
   width: $width;
   height: $height;
 }
-.box2 {
-  background-color: pink;
-  @include box-size-with-random-val(51rem, 5rem);
-}
-$box2-width: 3rem;
-.box3 {
-  background-color: black;
-  // calling my mixins
-  @include box-size-with-random-val($box2-width, 2rem);
-}
 
 // Hide element
 @mixin hide {
@@ -78,4 +68,17 @@ $box2-width: 3rem;
     @include box-size-with-random-val(3rem, 5rem) // transform: rotate(90deg);
 ;
   }
+}
+.box2 {
+  background-color: pink;
+  @include box-size-with-random-val(51rem, 5rem);
+  @include fade-in(5s);
+}
+$box2-width: 3rem;
+.box3 {
+  background-color: black;
+  // calling my mixins
+  @include box-size-with-random-val($box2-width, 2rem);
+  @include fade-in(10s);
+  height: 5rem;
 }
