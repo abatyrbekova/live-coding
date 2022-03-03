@@ -1,0 +1,27 @@
+// Maps in Sass hold pairs of keys and values, and make it easy to look up a value by its corresponding key.
+$xs-font-size: 12px;
+$sm-font-size: 14px;
+
+$font-sizes: (
+  xs: 12px,
+  sm: 14px,
+  m: 16px,
+  l: 18px,
+  xl: 20px,
+  xxl: 22px,
+);
+// this is the best ues for maps 😉
+@mixin font-size($size) {
+  @if map-has-key($font-sizes, $size) {
+    //true
+    font-size: map-get($font-sizes, $size);
+  } @else {
+    //false
+    @error "This is not defined.";
+  }
+}
+$orange-colors: (
+  light: #fca82b,
+  dark: #fc952b,
+  super: #fc9a00,
+);
