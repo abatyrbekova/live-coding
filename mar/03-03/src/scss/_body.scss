@@ -1,0 +1,4 @@
+.box {
+  @include box-sizing(3rem, 250px);
+  background-color: black;
+}

@@ -1,0 +1,11 @@
+// hard coded
+@mixin header-font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+//
+@mixin box-sizing($width, $height) {
+  height: $height;
+  width: $width;
+}
