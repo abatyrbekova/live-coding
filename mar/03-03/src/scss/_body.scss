@@ -5,6 +5,10 @@
 section div {
   @include flex(center, flex-end);
   //   @include header-font-styles;
-  //   @include box-sizing(2rem, 4re, gray);
-  @include font-size("xs");
+  //   @include box-sizing(2rem, 4rem, gray);
+  // @include font-size("xs");
+  font-size: font-size("l");
+}
+.triangle {
+  @include triangle();
 }

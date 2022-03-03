@@ -2,4 +2,5 @@ ul {
   li {
     @include header-font-styles;
   }
+  @include menu-setup;
 }
