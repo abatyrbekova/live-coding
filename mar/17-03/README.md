@@ -7,7 +7,8 @@
     - `var`
     - `let`
     - `const`
-- difference between variables and constants
+- hoisting
+- variable names
 - JavaScript expressions
 - literals
 - mathematical operators
