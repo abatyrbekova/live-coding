@@ -10,3 +10,10 @@
 console.log("hello", 1, 2, 3, true, false);
 
 console.log("hello", "world");
+
+let firstName = "carlo";
+let city = "berlin";
+
+console.log(firstName, city);
+
+console.log(firstName, "lives in", "\n", city);
