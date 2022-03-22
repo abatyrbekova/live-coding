@@ -30,3 +30,18 @@ let password = "abc";
 console.log(
   `The password you chose is ${password.length > 8 ? "ok" : "too short"}`
 );
+
+
+
+
+let strangeString = "B\boogieWoogie\b"
+
+ console.log(strangeString.substring(12, 13) + strangeString + strangeString.substring(0, 1));
+
+ let robinHood = "t\bhe quick brown fox";
+
+console.log(robinHood);
+let uppercaseRobinHood =robinHood.toUpperCase();
+console.log(uppercaseRobinHood.slice(0, 1));
+
+console.log(uppercaseRobinHood.slice(0, 1) + robinHood);
