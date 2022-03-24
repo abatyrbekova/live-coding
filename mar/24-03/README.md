@@ -17,6 +17,6 @@ Basic Array methods
 - Array.prototype.slice()
 - Array.prototype.splice()
 - Array.prototype.join()
-- Array.prototype.split()
+- String.prototype.split()
 
 - assign the same array to 2 variables
