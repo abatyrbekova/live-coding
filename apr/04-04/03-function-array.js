@@ -36,3 +36,27 @@ let max3 = max(numbers2);
 console.log(max1);
 console.log(max2);
 console.log(max3);
+function multiplication() {
+  return 2 * 3;
+}
+
+console.log(multiplication());
+
+function multiply(a, b) {
+  return a * b;
+}
+
+console.log(multiply(2, 3));
+console.log(multiply(8, 7));
+console.log(multiply(10, 7));
+
+function double(number) {
+    const result = number * 2;
+    console.log("line 55", result);
+    return result;
+
+    console.log("hey, I will never run");
+}
+
+double(4);
+// console.log(doubleResult);
