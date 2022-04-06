@@ -24,3 +24,30 @@ function leadingZero(number) {
   console.log(leadingZero(10)); // 10
   console.log(leadingZero(107)); // 107
   console.log(leadingZero(2)); // 02
+
+
+
+  let array = [1, 2, 3];
+
+array.join();
+array = 2;
+
+
+// strongly typed languages (C, C++, Java, C#, Rust)
+
+/**
+ * this is a C program
+ * 
+ * void main() {
+ *  int x = 0;
+ * 
+ *  print(x);
+ * }
+ * 
+ * compile c-program.c => c-program.exe
+ * 
+ * flsjahgkdfjshgdslgyds98ewysfgh0248573945
+ */
+
+
+// loosely (dynamically) typed languages
