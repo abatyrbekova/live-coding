@@ -80,7 +80,7 @@ console.log(stringEnd + stringTask7 + stringEnd);
 let stringTask10 = "the quick brown fox";
 
 // T
-let uppercaseInitial = stringTask10.slice(0, 1).toUpperCase();
+let uppercaseInitial = stringTask10.slice(0, 1).toUpperCase(); // T
 let stringExcludingInitial = stringTask10.slice(1);
 let capitalisedString = uppercaseInitial + stringExcludingInitial;
 // let initial = stringTask10[0].toUpperCase();
