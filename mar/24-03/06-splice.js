@@ -29,7 +29,7 @@ let letters = ["a", "b", "c", 1, 2, 3, 4, 5, "e", "f", "g"];
 let splicedLetters = letters.splice(3, 5, "d");
 console.log("spliced letters", splicedLetters);
 console.log(letters);
-
+ 
 let cities = ["Berlin", "London", "Leipzig"];
 
 // let's add Rome and Tokyo between London and Leipzig

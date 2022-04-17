@@ -6,7 +6,6 @@
 let animals = ["dog", "cat", "giraffe", "zebra", "koala", "mouse"];
 
 console.log(animals.slice(1, 3)); // ["cat", "giraffe"]
-
 let sliceOfArray = animals.slice(1, 3);
 
 console.log(animals);
