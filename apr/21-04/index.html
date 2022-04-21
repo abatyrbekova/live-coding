@@ -15,6 +15,13 @@
             <h3>products[i].name</h3>
             <h4>products[i].brand</h4>
             <div>products[i].price</div>
+            <div class="other-pictures">
+                for (let j = 0; j < products[i].otherPictures.length; j++) {
+                    <div class="small-picture">
+                        <img src="products[i].otherPictures[j]">
+                    </div>
+                }
+            </div>
         </div>
     }
 </body>

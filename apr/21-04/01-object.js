@@ -70,7 +70,8 @@ const product = {
   brand: "Adidas",
   name: "3MC Unisex",
   price: 64.95,
-  picture: "http://shoe.jpg",
+  mainPicture: "http://shoe.jpg",
+  otherPictures: ["picture1.jpg", "picture2.jpg", "picture3.jpg"]
 };
 
 console.log(product);
@@ -127,3 +128,11 @@ console.log(person3.firstName);
 console.log(person3.address.city);
 console.log(person3.address.street);
 console.log(person3.address.street[0]);
+console.log(person3.country);
+
+
+
+
+
+
+console.log(person3[age]);
