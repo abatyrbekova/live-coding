@@ -112,7 +112,7 @@ function updateWishlist(userid, productId) {
     if (!wishlist[wishIdx].products.includes(productId)) {
         console.log('product not found')
         wishlist[wishIdx].products.push(productId)
-        return;
+       return;
     } 
 
     // 4. find the index of the product in order to remove it
