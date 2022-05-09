@@ -6,9 +6,6 @@
   - filter()
   - find()
   - forEach()
-- destructuring assignment
-- array destructuring assignment
-- object destructuring assignment
 
 ## Advanced array methods
 
@@ -41,20 +38,4 @@ If the callback returns something that it's not a boolean, it will still be trea
 ### find()
 
 The array method `find()` works like `filter()`, but as a result we'll get only one element: the first element in the array that satisfies the condition in the callback
-
-
-// a function that calculates the total of every type of product in the cart array
-// saves the separate total aounts in an object and returns this object
-/*
-result:
-{
-    t-shirt: 59.97,
-    jacket: 49.99,
-    ...
-}
-*/
-
-// a function that calculates the total of more than 1 product, not necessarily all of them
-
-
 
