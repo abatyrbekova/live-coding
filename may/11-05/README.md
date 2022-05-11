@@ -3,6 +3,7 @@
 - class recap
 - class inheritance
 - `extends`, `super()`
+- `instanceof`
 - getter and setter methods
 - `get`, `set`
 
