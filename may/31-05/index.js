@@ -16,14 +16,14 @@ console.log(items);
 const randomHex = () => {
   let result = [];
   let numAndStr = "1234567890ABCDEF";
-  console.log(numAndStr.length);
   for (let i = 0; i < 6; i++) {
     result.push(numAndStr[Math.floor(Math.random() * numAndStr.length)]);
   }
+  lib.innerHTML = result.join("");
   return result.join("");
 };
 for (const item of items) {
   item.style.backgroundColor = `#${randomHex()}`;
 }
 
-lib.innerHTML = randomHex();
+//= randomHex();
