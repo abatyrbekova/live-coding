@@ -17,3 +17,14 @@
   - Element.add()
   - Element.remove()
   - onchanged event
+
+---
+
+## [02.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/02-06) Topics:
+
+- Manipulating: Changing the DOM tree
+- Security risks: `document.write()` and script injection
+- Creating Elements: `document.createElement(<tag name>)`
+- document.createTextNode("");
+- Adding elements to the page: `Element.appendChild(<Element object>)`
+- Form events: `submit`, `Event.preventDefault()`
