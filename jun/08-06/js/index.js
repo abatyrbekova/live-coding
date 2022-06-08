@@ -7,22 +7,24 @@ const h2 = document.querySelector(".result h2");
 const userData = document.querySelector("#user-name");
 const form = document.querySelector("form");
 const start = document.querySelector("#start");
-const stop = document.querySelector("#stop");
+const stopListen = document.querySelector("#stop");
 // functions
 const whiteBg = () => {
+  // this
   box.style.backgroundColor = "white";
 };
 const orangeBg = () => {
   box.style.backgroundColor = "orange";
 };
 // EventListeners
-const startBoxEvents = () => {
-  box.addEventListener("click", () => console.log("cool"));
+const startBoxEvents = (e) => {
+  //  box.addEventListener("click", () => console.log("cool"));
   box.addEventListener("mouseenter", orangeBg);
   box.addEventListener("mouseleave", whiteBg);
 };
+// DRY
 const stopBoxEvents = () => {
-  box.removeEventListener("click");
+  //  box.removeEventListener("click");
   box.removeEventListener("mouseenter", orangeBg);
   box.removeEventListener("mouseleave", whiteBg);
 };
@@ -35,9 +37,15 @@ window.addEventListener("load", sayHi);
 const newUser = (e) => {
   e.preventDefault();
   console.log(e);
+  // e.target.value
   h2.innerHTML += `${userData.value} <br>`;
 };
 form.addEventListener("submit", newUser);
 form.addEventListener("reset", () => (form.style.backgroundColor = "yellow"));
 start.addEventListener("click", startBoxEvents);
-stop.addEventListener("click", stopBoxEvents);
+stopListen.addEventListener("click", stopBoxEvents);
+
+const display = (e) => {
+  console.log(e);
+};
+display();
