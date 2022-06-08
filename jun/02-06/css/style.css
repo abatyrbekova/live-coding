@@ -3,9 +3,9 @@ ul li {
   flex-direction: row;
   width: 50%;
 }
-ul li button {
-  justify-self: end;
-}
+/* ul li button {
+   justify-self: end;
+} */
 ul li:nth-child(2n) {
   background-color: orange;
 }
