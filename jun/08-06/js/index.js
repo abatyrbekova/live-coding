@@ -1,4 +1,3 @@
-// password gen upon a user input
 // var
 const arr = [];
 // html elements
