@@ -8,7 +8,11 @@
   </head>
   <body>
     <div id="root"></div>
-    <script src="./src/index.js"></script>
-    <script src="./src/second.js"></script>
+    <!-- In case we didn't use webpack, we would have to
+          add type='module' to our script -->
+    <!--  <script type='module' src="./src/index.js"></script> -->
+
+    <!-- Here we are using the built javascript that's why we don't need the type='module' -->
+    <script src="./dist/main.js"></script>
   </body>
 </html>

@@ -1,5 +1,7 @@
 // # Extreme Travel Website!
 
+export const testing = "we are testing";
+
 // **Instructions**:
 // * Select the `header` that is the closest to
 // the first `h1` heading. Give the `header` a
