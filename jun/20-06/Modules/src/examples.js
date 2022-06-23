@@ -5,7 +5,6 @@ export const screws = {
 };
 
 // ? import { screws } from 'path/to/the/file'
-// ? import { screws } from 'path/to/the/file'
 
 // ! Named exports - exporting multiple variables at once
 const x = "yes";

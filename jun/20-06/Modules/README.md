@@ -23,7 +23,7 @@
 
 8. So, now that we have package.json file, we wanted to add the lodash library to our project, and we did that by typing the following command in our terminal: `npm install --save lodash`
 
-9. Up until this point, everything worked great, but now that we have introduced an external library (`lodash` in our case), we noticed that the app would crash, it could not understand what lodash is. This is because the browser does not understand how to add an external library to our project.
+9. Up until this point, everything worked great, but now that we have introduced an external library (`lodash` in our case), we noticed that the app would crash, it could not understand what lodash is. This is because the browser does not understand how to add an extnpm run build ernal library to our project.
 
 10. To fix this problem, we had to add `webpack` to our project. We wanted to add it as a developer dependency, since we do not want the user to download it.
 
