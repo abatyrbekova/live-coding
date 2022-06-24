@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, *::after, *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            font-size: 1rem;
+            font-family: sans-serif;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 1rem;
+        }
+
+        #title {
+            margin-bottom: 2rem;
+        }
+
+        #imagewrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        #wrapper {
+            width: 100%;
+            /* height: 100%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #ingredients, #instructions {
+            flex-grow: 1;
+            width: 45%;
+            margin-top: 2rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        h3 {
+            margin-bottom: 1rem;
+        }
+
+    </style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2 id="title"></h2>
+        <div id="imagewrapper">
+            <img id="image" src="" alt="some dish">
+        </div>
+        <div id="wrapper">
+            <div id="ingredients">
+                <h3>Ingredients</h3>
+            </div>
+            <div id="instructions">
+                <h3>Instructions</h3>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
