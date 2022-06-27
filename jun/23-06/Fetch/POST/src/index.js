@@ -50,7 +50,7 @@ async function addPost(titleText, bodyText) {
 
 // ! We want to get the user input and add submit it
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  //   e.preventDefault();
 
   const titleText = titleInput.value;
   const bodyText = bodyInput.value;
