@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  margin-bottom: 16px;
+}
+
+li {
+  list-style-type: none;
+  padding: 16px;
+}
+
+.listItems {
+  background-color: blue;
+}
+
+button {
+  background-color: gray;
+}
