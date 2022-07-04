@@ -162,3 +162,51 @@ Introduction: Modules for smaller files
 - Sending data with Fetch: `fetch(<url>, <options>)`, the `method` option
 - Parsing the body: the `body` option in fetch
 - Sending forms with JS: creating a post request on submit"""
+---
+
+## [27.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/27-06) Topics:
+
+"Saving Data: Use Cases for saving data in the browser
+- Methods of saving data to the browser: `localStorage` vs. `sessionStorage`
+- Setting data: Key value pairs, `Storage.setItem(<key>, <value>)`
+- Getting data: `Storage.getItem(<key>)`
+"Cross Origin Requests
+- Making requests to other domains: The same origin policy
+- CORS: Cross Origin Resource Sharing, Accepted CORS headers
+---
+
+
+
+
+## [29.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/29-06) Topics:
+---
+
+- React intro: Why react? React vs. Web Component Standard
+"Quickstart with Create React App
+- Starting a react project: `npx create-react-app <app name>`
+- What's in the box: Reviewing package.json
+- Project structure: `src` vs. `public` folders, the `build` folder
+- Render in React: `index.js`
+- Including styles: `import <path to css>`"
+"Component Anatomy: Dissecting `App.js`
+- Entry Point: `App.js`, the boilerplate `App` component
+- Importing images: `import <image name> from <path to image>`
+- Using images: `<img src={imageName} alt=""..."" />`"
+"Templating with JSX: Slightly different html
+- Multi-line templates: `const <component name> = () => (<JSX>)`
+- One element per component: `React.Fragment` for multiple html tags
+- Put the JS in JSX: Using `{}` for JS expression interpolation
+- Comments in JSX
+- Conditional rendering
+- Generating lists with Array map, the `key` property"
+
+## [30.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/30-06) Topics:
+Nesting Components
+- Project organization II: The `components` folder
+- Exporting and Importing components
+- Using Components in JSX
+- When to use: Basic guidelines on when to create components
+Data flow
+- Props definition
+- Accepting props
+- Passing props
