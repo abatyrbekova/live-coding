@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+// import { useState } from "react";
 import { MdLightMode, MdNightlight } from "react-icons/md";
 import DropDown from "./DropDown";
 
@@ -31,7 +31,9 @@ export default function Header() {
         Theme {toggleTheme ? <MdLightMode /> : <MdNightlight />}
       </div>
 
-     <DropDown />
+     {/* {toggleMenu ? <DropDown /> : null}*/}
+
+     {toggleMenu && <DropDown toggleTheme={toggleTheme} /> }
       
     </div>
   );
