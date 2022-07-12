@@ -1,5 +1,8 @@
+import { useState } from "react";
+
 // Components
 import Text from "./components/Text";
+import Counter from "./components/Counter";
 
 // Styles
 import "./App.css";
@@ -10,9 +13,22 @@ const texts = [
   { color: "red", text: "Error text" },
 ];
 
+const todoItems = ["First item", "Second item"];
+
 function App() {
+  const [todos, setTodos] = useState(todoItems);
+
+  const handleDelete = (index) => {
+    const newTodos = todos.filter((item, i) => {
+      return i !== index;
+    });
+
+    setTodos(newTodos);
+  };
+
   return (
     <div className="App">
+      <Counter />
       {/* 1.  */}
       {/* <p style={{ backgroundColor: "" }}>Normal text</p> */}
       {/* <p style={{ backgroundColor: "green" }}>Success text</p>
@@ -25,6 +41,12 @@ function App() {
       {texts.map((text, i) => {
         return <Text key={i} color={text.color} text={text.text} />;
       })}
+
+      {todos.map((todo, i) => (
+        <li key={i}>
+          {todo} <button onClick={() => handleDelete(i)}>Delete</button>
+        </li>
+      ))}
     </div>
   );
 }
