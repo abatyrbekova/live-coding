@@ -1,0 +1,28 @@
+// This is messy and incomplete, but so short that it's fine...
+
+.App {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+nav {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        img {
+            width: 150px;
+            border-radius: 50%;
+            border: 1em solid;
+            display: block;
+            opacity: 0.2;
+        }
+
+        &.active img { opacity: 1; }
+        &.force-full-opacity img { opacity: 1; }
+    }
+}
+
+.Dog img { width: 200px; }
