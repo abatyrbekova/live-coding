@@ -1,15 +1,23 @@
 import { useState, useReducer } from "react";
 
+const ACTIONS = {
+  INCREMENT: "increment",
+  CHANGE_EMAIL: "change-email",
+};
+
 // The reducer function accepts two parameters - the state and the action object
 // the state is passed by React, the action object is whatever we pass inside the dispatch function
 function reducer(state, action) {
   // based on the value of action.type, we can modify parts of the state
   switch (action.type) {
-    case "increment":
+    case ACTIONS.INCREMENT:
       return { ...state, count: state.count + 1 };
 
-    case "change-email":
-      return { ...state, email: state.email };
+    case ACTIONS.CHANGE_EMAIL:
+      return { ...state, email: action.newEmail };
+
+    default:
+      return state;
   }
 }
 
@@ -22,24 +30,22 @@ function App() {
     email: "a@a.c",
   });
 
-  console.log(state, "use reducer");
-
   return (
     <div className="App">
       <h1> use reducer hook</h1>
-      {/* examp;e with useState */}
+      {/* example with useState */}
       <h2>Count with useState: {count}</h2>
       <button onClick={() => setCount(count + 1)}>Increment count</button>
       <hr />
-      {/* examle with useReducer */}
+      {/* example with useReducer */}
       <h2>Count with useReducer hook: {state.count} </h2>
-      <button onClick={() => dispatch({ type: "increment" })}>
+      <button onClick={() => dispatch({ type: ACTIONS.INCREMENT })}>
         Increment use reducer count
       </button>
 
       <button
         onClick={() =>
-          dispatch({ type: "change-email", newEmail: "email@email.com" })
+          dispatch({ type: ACTIONS.CHANGE_EMAIL, newEmail: "email@email.com" })
         }
       >
         Change email to email@email.com
