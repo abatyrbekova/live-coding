@@ -1,0 +1,45 @@
+input {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input{
+ margin: 10px 0 25px 0;
+}
+
+.posts-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.posts-container div{
+  padding: 10px 20px;
+  margin: 10px;
+  height: 220px;
+  width: 420px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: aquamarine;
+}
+
+.posts-container button{
+  width: 150px;
+  height: 50px;
+  place-self: end;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(110, 223, 125);
+}
+
+.icon{
+  cursor: pointer;
+}
