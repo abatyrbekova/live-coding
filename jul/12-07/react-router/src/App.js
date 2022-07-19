@@ -50,7 +50,7 @@ function App() {
         {/* Version 1:  If the user goes to a  URL we do not have, we show them the not found page */}
         {/* <Route path="*" element={<NotFoundPage />} /> */}
         {/* Version 2: If the user goes to a  URL we do not have, we redirect them to the home page */}
-        <Route path="*" element={<Navigate to={"/"} />} />
+        <Route path="*" element={<Navigate to={"/not"} />} />
       </Routes>
     </div>
   );

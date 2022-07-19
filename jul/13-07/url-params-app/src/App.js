@@ -14,13 +14,12 @@ function App() {
           backgroundColor: "gray",
           display: "flex",
           justifyContent: "space-evenly",
-          alignItems: 'center'
+          alignItems: "center",
         }}
       >
         <NavLink to="/"> Home </NavLink>
         <NavLink to="/all-users"> Users </NavLink>
       </div>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/all-users" element={<Users />} />

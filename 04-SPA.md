@@ -162,37 +162,38 @@ Introduction: Modules for smaller files
 - Sending data with Fetch: `fetch(<url>, <options>)`, the `method` option
 - Parsing the body: the `body` option in fetch
 - Sending forms with JS: creating a post request on submit"""
+
 ---
 
 ## [27.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/27-06) Topics:
 
 "Saving Data: Use Cases for saving data in the browser
+
 - Methods of saving data to the browser: `localStorage` vs. `sessionStorage`
 - Setting data: Key value pairs, `Storage.setItem(<key>, <value>)`
 - Getting data: `Storage.getItem(<key>)`
-"Cross Origin Requests
+  "Cross Origin Requests
 - Making requests to other domains: The same origin policy
 - CORS: Cross Origin Resource Sharing, Accepted CORS headers
+
 ---
 
-
-
-
 ## [29.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/29-06) Topics:
+
 ---
 
 - React intro: Why react? React vs. Web Component Standard
-"Quickstart with Create React App
+  "Quickstart with Create React App
 - Starting a react project: `npx create-react-app <app name>`
 - What's in the box: Reviewing package.json
 - Project structure: `src` vs. `public` folders, the `build` folder
 - Render in React: `index.js`
 - Including styles: `import <path to css>`"
-"Component Anatomy: Dissecting `App.js`
+  "Component Anatomy: Dissecting `App.js`
 - Entry Point: `App.js`, the boilerplate `App` component
 - Importing images: `import <image name> from <path to image>`
 - Using images: `<img src={imageName} alt=""..."" />`"
-"Templating with JSX: Slightly different html
+  "Templating with JSX: Slightly different html
 - Multi-line templates: `const <component name> = () => (<JSX>)`
 - One element per component: `React.Fragment` for multiple html tags
 - Put the JS in JSX: Using `{}` for JS expression interpolation
@@ -200,13 +201,105 @@ Introduction: Modules for smaller files
 - Conditional rendering
 - Generating lists with Array map, the `key` property"
 
+---
+
 ## [30.06](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/30-06) Topics:
+
 Nesting Components
+
 - Project organization II: The `components` folder
 - Exporting and Importing components
 - Using Components in JSX
 - When to use: Basic guidelines on when to create components
-Data flow
+  Data flow
 - Props definition
 - Accepting props
 - Passing props
+
+---
+
+## [04.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/04-07) Topics:
+
+- states definition
+- initializing and updating states with useState
+  Interaction
+- Setting event handlers in JSX:
+- Defining event handlers in components
+- Binding component class to handlers and arrow functions
+- Manipulating state in events
+- Difference between Class & Functional component
+
+---
+
+## [05.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/05-07) Topics:
+
+Lifting State Up
+Handling Forms
+
+- Controlled components: react state as the single source of truth
+- Controlling the value of inputs
+- Handling multiple inputs with one `onChange` handler
+- Submitting forms: making API calls on submit with data from state
+
+---
+
+## [06.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/06-07) Topics:
+
+Styling
+
+- Handling forms recap & solution
+- implementing styling in a React project
+- react-icons
+- Including bootstrap in our project"
+
+---
+
+## [07.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/07-076) Topics:
+
+the Effect Hook:
+
+- Usage of the Effect Hook to perform side effects in function components
+
+---
+
+## [11.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/11-07) Topics:
+
+## React Recap day
+
+## [12.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/12-07) Topics:
+
+Introduction: Routing in a Single Page Application with React Router
+"Route Components: Setting up react-router-dom
+
+- Wrapping our app with a `<BrowserRouter>` container component
+  "Route Matching Components: Our first routes
+- Conditionally render according to URL: the `<Route>` component
+- Choosing only one route to render: `<Routes>`
+- Leaving out the path: Rendering 404 components"
+  "Building Navigation
+- Using `<Link>` to navigate to a path
+- Creating a Navigation bar with `<NavLink activeClassName=""[...]"">`
+- rendering child route elements with `<Outlet>`
+
+---
+
+## [13.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/13-07) Topics:
+
+Route Parameters
+Creating dynamic route paths with route params: the `/:<param>` notation
+
+---
+
+## [14.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/14-07) Topics:
+
+Basic State Management Concepts
+
+- Local state & global state
+- The nightmare of drilling state through props
+- What is a state container?"
+  "Context API
+- Provider and Consumer component
+- Consume the Context `useContext`
+
+## [18.07](https://github.com/FbW-WD21-E11/live-coding/tree/main/jun/18-07) Topics:
+- Enhance the context using a Reducer `useReducer`
