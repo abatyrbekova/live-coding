@@ -3,20 +3,25 @@ import {
    // useNavigate,
     Link } from "react-router-dom";
 
+import useFetch from "../UseFetch";
+
 export default function Users() {
   const [users, setUsers] = useState([]);
 
  // const navigate = useNavigate();
 
-  const fetchUsers = () => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((data) => setUsers(data));
-  };
+  // const fetchUsers = () => {
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then((response) => response.json())
+  //     .then((data) => setUsers(data));
+  // };
+ const [data]= useFetch("https://jsonplaceholder.typicode.com/users")
 
+ 
   useEffect(() => {
-    fetchUsers();
-  }, []);
+    //fetchUsers();
+    data && setUsers(data)
+  }, [data]);
 
   return (
     <div>
