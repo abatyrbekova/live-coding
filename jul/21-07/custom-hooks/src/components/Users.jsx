@@ -1,28 +1,13 @@
-import React, { useEffect, useState } from "react";
-import {
-  // useNavigate,
-  Link,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
+import useFetch from "../fetchHook/UseFetch";
 
 export default function Users() {
-  const [users, setUsers] = useState([]);
-
-  // const navigate = useNavigate();
-
-  const fetchUsers = () => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((data) => setUsers(data));
-  };
-
-  useEffect(() => {
-    fetchUsers();
-  }, []);
+  const [data] = useFetch("https://jsonplaceholder.typicode.com/users");
 
   return (
     <div>
-      {users.map((item) => (
+      {data?.map((item) => (
         <Link key={item.id} to={`/single-user/${item.id}`}>
           <div
           // onClick={() => navigate(`/single-user/${item.id}`)}

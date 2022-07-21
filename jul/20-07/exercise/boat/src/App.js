@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { useReducer, useState } from "react";
+import { useReducer } from "react";
 
 const ACTIONS = {
   START: "start",
